@@ -1,0 +1,35 @@
+ C++ code
+
+int cont = 0;
+
+void setup()
+{
+  pinMode(12, OUTPUT);
+  pinMode(8, OUTPUT);
+  pinMode(10, OUTPUT);
+
+  cont = 1;
+}
+
+void loop()
+{
+  if (cont = 2) {
+    digitalWrite(12, HIGH);
+    delay(7000);  Wait for 7000 millisecond(s)
+    digitalWrite(8, HIGH);
+    digitalWrite(12, LOW);
+    delay(5000);  Wait for 5000 millisecond(s)
+    digitalWrite(10, HIGH);
+    digitalWrite(8, LOW);
+    delay(2000);  Wait for 2000 millisecond(s)
+    digitalWrite(10, LOW);
+    delay(1);  Wait for 1 millisecond(s)
+  } else {
+    digitalWrite(10, HIGH);
+    delay(1000);  Wait for 1000 millisecond(s)
+    digitalWrite(10, LOW);
+    delay(1000);  Wait for 1000 millisecond(s)
+    delay(1);  Wait for 1 millisecond(s)
+  }
+  cont += 1;
+}

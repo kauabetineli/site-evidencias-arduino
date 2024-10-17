@@ -1,0 +1,1 @@
+A linguagem de programação C++ para Arduino é uma variação do C++, projetada para facilitar o desenvolvimento de aplicações em microcontroladores da plataforma Arduino. Ela combina a simplicidade da linguagem C com recursos orientados a objetos, permitindo que os desenvolvedores criem projetos desde simples até mais complexos.
